@@ -95,6 +95,7 @@ public class JobData {
             String userValue = value.toLowerCase();
             if (aValue.contains(userValue)) {
                 jobs.add(row);
+                continue;
             }
         }
         return jobs;
